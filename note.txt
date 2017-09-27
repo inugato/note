@@ -1,0 +1,17 @@
+ dvipdf Report.dvi
+latex Report.tex	
+rm Report.out hw5.log Report.toc Report.dvi Report.aux
+
+
+Chapter 4
+
+
+sudo ntfsfix /dev/sda3
+mv oldfile newfile 
+g++ -Wall -o newfile newfile.cpp
+./newfile.cpp
+mplayer
+mpg321
+amixer -q -D pulse sset Master (Value)
+
+sudo apt-get install libncurses5-dev libncursesw5-dev // conio.h - curses.h
